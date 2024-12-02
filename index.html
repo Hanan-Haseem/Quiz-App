@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application- ICT/21/847</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header">
+  <h1>Interactive Quiz Application</h1>
+</div>
+<div class="quiz-container">
+  <h1>Web Development Quiz</h1>
+  <div id="question"></div>
+  <div id="choices" class="choices-container"></div>
+ <button id="submitBtn" onclick="submitAnswer()">Submit Answer</button>
+  <button id="nextPageBtn" onclick="nextPage()">Next Page</button>
+  <p id="option"></p>
+  <p id="result"></p>
+  <p id="score">Score: <span id="userScore">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

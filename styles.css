@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bck.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.header {
+    background-color: #063507;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 110px auto; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.choices-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-btn {
+    background-color: #063507;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice-btn:hover {
+    background-color: #45a049;
+}
+
+#nextPageBtn,
+#option,
+#result,
+#score {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#nextPageBtn {
+    background-color: #114901;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+#nextPageBtn:hover {
+    background-color: #06d42c;
+}
+
+#option {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#question {
+  text-align: center;
+}
+#result {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #033e09; 
+}
+
+#score {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
